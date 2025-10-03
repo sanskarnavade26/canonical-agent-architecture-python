@@ -199,10 +199,10 @@ class WhileLoopAgent:
 
 ### Tool Design Philosophy
 
-� **What NOT to do** - Generic API wrappers:
+⚠️ **What NOT to do** - Generic API wrappers:
 
 ```python
-# L DON'T DO THIS - Generic email API wrapper
+# ❌ DON'T DO THIS - Generic email API wrapper
 class BadEmailSchema(BaseModel):
     to: str = Field(..., description="Recipient email address")
     from_: str = Field(..., description="Sender email address")
@@ -215,10 +215,10 @@ class BadEmailSchema(BaseModel):
     # ... 10+ more parameters that confuse the agent
 ```
 
- **What to DO** - Purpose-built tools:
+✅ **What to DO** - Purpose-built tools:
 
 ```python
-#  DO THIS - Purpose-built for customer notifications
+# ✅ DO THIS - Purpose-built for customer notifications
 class NotifyCustomerSchema(BaseModel):
     customerEmail: str = Field(..., description="Customer's email address")
     message: str = Field(..., description="The update message to send")
