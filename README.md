@@ -130,15 +130,15 @@ This will compare purpose-built tools vs generic tools and show you the performa
 
 ```
 .
- src/
-    __init__.py          # Package initialization
-    agent.py             # WhileLoopAgent implementation
-    tools.py             # Purpose-built tools
-    user_service.py      # Business logic layer
-    user_data.py         # Mock data models
- main.py                  # Entry point with examples
- .env                     # Environment variables
- README.md
+├── src/
+│   ├── __init__.py          # Package initialization
+│   ├── agent.py             # WhileLoopAgent implementation
+│   ├── tools.py             # Purpose-built tools
+│   ├── user_service.py      # Business logic layer
+│   └── user_data.py         # Mock data models
+├── main.py                  # Entry point with examples
+├── .env                     # Environment variables
+└── README.md
 ```
 
 ## Building the Agent
