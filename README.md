@@ -342,8 +342,6 @@ The evaluation uses two scorers:
 
 ### Expected Results
 
-![specific vs generic](./assets/specific-vs-generic.png)
-
 **Purpose-built tools win because:**
 - ✅ Less parameters = less confusion for the agent
 - ✅ Better abstractions match the agent's mental model
