@@ -2,6 +2,8 @@
 
 A Python implementation of the **canonical agent architecture**: a while loop with tools. This pattern provides a clean, debuggable foundation for building production-ready AI agents.
 
+> 📘 **Looking for TypeScript?** Check out the [TypeScript implementation](https://github.com/scriptstar/canonical-agent-architecture-typescript) of this same architecture.
+
 ## What You'll Learn
 
 - Implement the canonical while loop agent pattern in Python
@@ -446,6 +448,10 @@ Start building your own while loop agent:
 - [Agent While Loop Pattern (Blog)](https://www.braintrust.dev/blog/agent-while-loop)
 - [OpenAI Python SDK](https://github.com/openai/openai-python)
 - [Pydantic Documentation](https://docs.pydantic.dev/)
+
+### Related Projects
+
+- 📘 [TypeScript Implementation](https://github.com/scriptstar/canonical-agent-architecture-typescript) - Same architecture, TypeScript implementation
 
 ## License
 
